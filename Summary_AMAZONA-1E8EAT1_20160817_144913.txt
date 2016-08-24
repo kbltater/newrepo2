@@ -1,0 +1,78 @@
+Overall summary:
+  Final result:                  The patch installer has failed to update the shared features. To determine the reason for failure, review the log files.
+  Exit code (Decimal):           -2068024469
+  Exit facility code:            1212
+  Exit error code:               29547
+  Exit message:                  The patch installer has failed to update the shared features. To determine the reason for failure, review the log files.
+  Start time:                    2016-08-17 14:49:15
+  End time:                      2016-08-17 14:51:05
+  Requested action:              Patch
+
+Machine Properties:
+  Machine name:                  AMAZONA-1E8EAT1
+  Machine processor count:       2
+  OS version:                    Windows Server 2008 R2
+  OS service pack:               Service Pack 1
+  OS region:                     United States
+  OS language:                   English (United States)
+  OS architecture:               x64
+  Process architecture:          64 Bit
+  OS clustered:                  No
+
+Product features discovered:
+  Product              Instance             Instance ID                    Feature                                  Language             Edition              Version         Clustered 
+  Sql Server 2008 R2   MSSQLSERVER          MSSQL10_50.MSSQLSERVER         Database Engine Services                 1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2   MSSQLSERVER          MSSQL10_50.MSSQLSERVER         SQL Server Replication                   1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2   MSSQLSERVER          MSSQL10_50.MSSQLSERVER         Full-Text Search                         1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2   MSSQLSERVER          MSAS10_50.MSSQLSERVER          Analysis Services                        1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2   MSSQLSERVER          MSRS10_50.MSSQLSERVER          Reporting Services                       1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Management Tools - Basic                 1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Management Tools - Complete              1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Client Tools Connectivity                1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Client Tools Backwards Compatibility     1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Client Tools SDK                         1033                 Developer Edition    10.53.6000.34   No        
+  Sql Server 2008 R2                                                       Integration Services                     1033                 Developer Edition    10.53.6000.34   No        
+
+Package properties:
+  Description:                   SQL Server Database Services 2008 R2
+  ProductName:                   SQL2008
+  Type:                          RTM
+  Version:                       10
+  SPLevel:                       3
+  KBArticle:                     KB2979597
+  KBArticleHyperlink:            http://support.microsoft.com/?kbid=2979597
+  PatchType:                     SP
+  AssociatedHotfixBuild:         0
+  Platform:                      x64
+  PatchLevel:                    10.53.6000.34
+  ProductVersion:                10.50.1600.1
+  GDRReservedRange:              10.50.6100.0:10.50.6300.0
+  PackageName:                   SQLServer2008R2-KB2979597-x64.exe
+  Installation location:         d:\a3e2ae41274b3f35d1eabcc0\x64\setup\
+
+User Input Settings:
+  ACTION:                        Patch
+  ALLINSTANCES:                  False
+  CLUSTERPASSIVE:                False
+  CONFIGURATIONFILE:             
+  ENU:                           True
+  FARMACCOUNT:                   <empty>
+  FARMADMINPORT:                 0
+  FARMPASSWORD:                  *****
+  HELP:                          False
+  INDICATEPROGRESS:              False
+  INSTANCEID:                    <empty>
+  INSTANCENAME:                  <empty>
+  PASSPHRASE:                    *****
+  QUIET:                         False
+  QUIETSIMPLE:                   False
+  UIMODE:                        Normal
+  X86:                           False
+
+Rules with failures:
+
+Global rules:
+
+There are no scenario-specific rules.
+
+Rules report file:               C:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Log\20160817_144913\SystemConfigurationCheck_Report.htm
